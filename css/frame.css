@@ -1,0 +1,307 @@
+/* Start Colors */
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+  --most-color: #f6f6f6;
+  --eee-color: #eee;
+  --white-color: white;
+  --main-transtion: 0.3s;
+}
+.c-b-white {
+  background-color: white;
+}
+.c-white {
+  color: white;
+}
+.c-b-red {
+  background-color: var(--red-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-b-eee {
+  background-color: #eee;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-b-blue {
+  background-color: var(--blue-color) !important;
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-b-grey {
+  background-color: var(--grey-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-b-green {
+  background-color: var(--green-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-b-orange {
+  background-color: var(--orange-color);
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-b-grey {
+  background-color: var(--grey-color);
+}
+.c-most {
+  color: var(--most-color);
+}
+.c-b-most {
+  background-color: var(--most-color);
+}
+/* End Colors */
+.relative {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+.txt-center {
+  text-align: center;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+/* Start padding */
+.p-20 {
+  padding: 20px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-15-20 {
+  padding: 15px 20px;
+}
+.p-5-10 {
+  padding: 5px 10px;
+}
+.p-5-15 {
+  padding: 5px 15px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-5-20-20 {
+  padding: 5px 20px 20px;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-15tb {
+  padding: 15px 0;
+}
+.p-20trl {
+  padding: 20px 20px 10px;
+}
+.p-10r {
+  padding-right: 10px;
+}
+.p-10L {
+  padding-left: 10px;
+}
+.p-15b {
+  padding-bottom: 15px;
+}
+.p-4-10 {
+  padding: 4px 10px;
+}
+/* End padding */
+/* Start margin */
+.m-0 {
+  margin: 0;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-20t {
+  margin-top: 20px;
+}
+.m-15t {
+  margin-top: 15px;
+}
+.m-10t {
+  margin-top: 10px;
+}
+.m-5t {
+  margin-top: 5px;
+}
+.m-0-t {
+  margin-top: 0;
+}
+.m-5b {
+  margin-bottom: 5px;
+}
+.m-10b {
+  margin-bottom: 10px;
+}
+.m-15b {
+  margin-bottom: 15px;
+}
+.m-20b {
+  margin-bottom: 20px;
+}
+.m-5-r {
+  margin-right: 5px;
+}
+.m-10-r {
+  margin-right: 10px;
+}
+.m-15-r {
+  margin-right: 15px;
+}
+.m-20-r {
+  margin-right: 20px;
+}
+.m-5-l {
+  margin-left: 5px;
+}
+.m-10-l {
+  margin-left: 10px;
+}
+.m-15-l {
+  margin-left: 15px;
+}
+.m-20-l {
+  margin-left: 20px;
+}
+/* End margin */
+.h-100 {
+  min-height: 100vh;
+}
+.w-100 {
+  width: 100% !important;
+}
+@media (max-width: 767px) {
+  .d-none {
+    display: none;
+  }
+}
+/* Font Size */
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+/* Font Size */
+.f-bold {
+  font-weight: bold;
+}
+/* Start Grid */
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+.grid-gap {
+  gap: 20px
+}
+.d-grid-300 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+/* End Grid */
+/* Start Flex */
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.space-around {
+  justify-content: space-around;
+}
+.align-center  {
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Flex */
+/* Start Gap */
+.gap-5 {
+  gap: 5px;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-15 {
+  gap: 15px;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* End Gap */
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+/* Start Border */
+.bdr-eee {
+  border: 1px solid #eee;
+}
+.bdr-ccc {
+  border: 1px solid #ccc;
+}
+.bdr-b-eee {
+  border-bottom: 1px solid #eee;
+}
+/* End Border */
+@media (max-width: 767px) {
+  .txt-center-mobile {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .mobile-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
